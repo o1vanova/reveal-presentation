@@ -1766,3 +1766,23 @@ $notesWidthPercent: 25%;
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+.company {
+	&__list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		line-height: 0.9 !important;
+	}
+
+	&__col {
+		width: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__title {
+		font-size: 60%;
+	}
+}
